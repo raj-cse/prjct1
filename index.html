@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Patiyal - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #FFD700;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #BBBBBB;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FFD700;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #CCCCCC;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+            margin-top: 50px;
+        }
+        footer p {
+            color: #BBBBBB;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skills .skill, .projects .project {
+            background-color: #1F1F1F;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            flex-basis: 45%;
+        }
+        .skills .skill h3, .projects .project h3 {
+            font-size: 1.5em;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Raj Patiyal</h1>
+            <p>Software Developer - Backend Specialist</p>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate software developer specializing in backend development.
+                With a strong foundation in various programming languages and frameworks,
+                I have successfully completed numerous projects that demonstrate my skills
+                in building robust and scalable backend systems. I am constantly learning and
+                keeping up with the latest trends in technology to ensure that I can deliver
+                the best solutions to my clients and employers.
+            </p>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Backend Development</h3>
+                    <p>Expert in Node.js, Express.js, Django, and Flask. Proficient in designing and developing RESTful APIs.</p>
+                </div>
+                <div class="skill">
+                    <h3>Frontend Development</h3>
+                    <p>Skilled in HTML, CSS, JavaScript, and frameworks such as React and Angular.</p>
+                </div>
+                <div class="skill">
+                    <h3>Database Management</h3>
+                    <p>Experienced with MySQL, PostgreSQL, MongoDB, and Redis.</p>
+                </div>
+                <div class="skill">
+                    <h3>Languages</h3>
+                    <p>Proficient in Python, JavaScript, Java, and C++.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>Developed a scalable RESTful API using Node.js and Express, which serves thousands of users daily.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>Built a dynamic web application with React and Flask, integrating third-party APIs and a PostgreSQL database.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>Created a real-time chat application using WebSocket and Django Channels, ensuring efficient communication.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Four</h3>
+                    <p>Implemented a machine learning model in Python for data analysis and prediction, deployed using Flask.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for any collaboration or job opportunities.</p>
+            <p>Email: <a href="mailto:rajpatiyal@example.com" style="color: #FFD700;">rajpatiyal@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/rajpatiyal" target="_blank" style="color: #FFD700;">linkedin.com/in/rajpatiyal</a></p>
+        </section>
+        <footer>
+            <p>&copy; 2024 Raj Patiyal. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
